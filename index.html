@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Syncano User Registration</title>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/syncano/dist/syncano.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/syncano.min.js"></script>
   </head>
   <body>
     <h1><a href="http://syncano.io">Syncano</a> User Registration</h1>
@@ -17,7 +17,12 @@
 
 
     <script type="text/javascript">
-      // YOUR CODE GOES HERE
+      $('#submit').on('click', function() {
+        var username = $('#username').val(),
+            password = $('#password').val();
+
+            // YOUR CODE GOES HERE
+      });
     </script>
   </body>
 </html>
