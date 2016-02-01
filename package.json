@@ -1,0 +1,11 @@
+{
+  "name": "syncano-user-reg",
+  "version": "0.0.0",
+  "description": "Short mini hack for user management using Syncano",
+  "license": "MIT",
+  "repository": "http://github.com/twack05/syncano-user-reg",
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "syncano": "^0.4.7"
+  }
+}
