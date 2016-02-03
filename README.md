@@ -2,7 +2,7 @@
 
 This minihack is designed to show you how easy user management can be with Syncano. First, you'll want to clone this repo.
 
-`git clone http://github.com/twack05/syncano-user-reg`
+`git clone http://github.com/Syncano-Community/syncano-user-reg`
 
 `cd syncano-user-reg`
 
