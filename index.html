@@ -31,11 +31,16 @@
     <p class="center-align">Need help? View the docs for more information about <a href="http://docs.syncano.io/docs/user-management">User Management</a></p>
 
     <script type="text/javascript">
+      // Update this with your Syncano Account Key and Instance Name
+      var syncano = new Syncano({accountKey: "YOUR_SYNCANO_ACCOUNT_KEY"}).instance("YOUR_SYNCANO_INSTANCE_NAME");
+
       $('#submit').on('click', function() {
         var username = $('#username').val(),
             password = $('#password').val();
 
             // YOUR CODE GOES HERE
+            // Write your Syncano Login API Call here
+            // If successful, you will be able to see your created user in the Syncano Dashboard
       });
     </script>
   </body>
