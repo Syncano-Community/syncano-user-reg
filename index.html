@@ -4,17 +4,31 @@
     <title>Syncano User Registration</title>
     <script src="js/jquery.min.js"></script>
     <script src="js/syncano.min.js"></script>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/index.css">
   </head>
   <body>
-    <h1><a href="http://syncano.io">Syncano</a> User Registration</h1>
-    <p>View the <a href="http://docs.syncano.io/docs/user-management">docs</a> for more information about User Management</p>
-    <hr>
-    <label>Username:</label>
-    <input type="text" id="username" /></br>
-    <label>Password:</label>
-    <input type="password" id="password" /></br>
-    <input type="submit" id="submit" />
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo"><img id="syncanoLogo" src="images/syncano-logo-white.png"></a>
+          <ul class="right hide-on-med-and-down">
+            <li id="navTitle">User Registration Mini Hack</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
+    <div class="login">
+      <label>Username</label>
+      <input type="text" id="username" /></br>
+      <label>Password</label>
+      <input type="password" id="password" /></br>
+      <input type="submit" id="submit" />
+    </div>
+
+    <p class="center-align">Need help? View the <a href="http://docs.syncano.io/docs/user-management">docs</a> for more information about User Management</p>
 
     <script type="text/javascript">
       $('#submit').on('click', function() {
